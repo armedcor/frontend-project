@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300i,400,400i,500
+,500i);
+
+
+/*----------------------NavBar */
+
+.navbar {
+    background: none;
+    border-color: transparent;
+}
+
+
+/*----------------------General Fonts, paddings and special characters */
+
+#quotes h2 p {
+    text-align: center;
+}
+
+.general-sub {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    color: #fafafa
+}
+
+.blockquote {
+    text-align: center;
+}
+
+@media (max-width: 999px) {
+    .mobile-hidden {
+        display: none;
+    }
+}
+
+
+/*----------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+
+
+.social-links {
+    padding-left: 45%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #2662c1;
+}
+
+#footer-details {
+    padding: 20px;
+}
