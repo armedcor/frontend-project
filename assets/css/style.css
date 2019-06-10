@@ -5,7 +5,7 @@
 /*----------------------NavBar */
 
 .nav-container {
- position: absolute;
+ position: fixed;
  top: 0;
  left: 0;
  padding-left: 0;
@@ -16,8 +16,10 @@
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(20,54,61,1);
     z-index: 1;
+    text-align: center
+   
 }
 
 
@@ -42,7 +44,11 @@
 
 /*----------------------General Fonts, paddings and special characters */
 
-
+a {
+    color: white;
+    font-weight: 500;
+    font-family: 'Quattrocento', serif;
+}
 
 
 body {
