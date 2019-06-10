@@ -1,25 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2:300i,400,400i,500
-,500i);
-
+,
+500i);
 
 /*----------------------NavBar */
 
-.navbar {
-    background: none;
-    border-color: transparent;
+.nav-container {
+ position: absolute;
+ top: 0;
+ left: 0;
+ padding-left: 0;
+ padding-right: 0;
 }
 
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+    z-index: 1;
+}
+
+
+
+/*-------------------- Body Containers */
+
+.callout-container {
+    height: 90vh;
+    background: url("../photos/Cormac.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
 
 /*----------------------General Fonts, paddings and special characters */
 
-#quotes h2 p {
-    text-align: center;
+
+
+
+body {
+    font-family: "Exo 2", sans-serif;
 }
 
-.general-sub {
-    font-family: "Exo 2", sans-serif;
-    font-weight: 300;
-    color: #fafafa
+#quotes h2 p {
+    text-align: center;
 }
 
 .blockquote {
@@ -30,13 +61,38 @@
     .mobile-hidden {
         display: none;
     }
+
 }
+
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron-header {
+    font-family: 'Quattrocento', serif;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 72px;
+}
+
+.jumbotron-text {
+    color: white;
+    font-family: 'Quattrocento', serif;
+    letter-spacing:2px;
+    font-weight: 300
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
 
 
 /*----------------------Footer */
 
 footer {
-    background-color: #525252;
+    background-color: #05030e;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -73,3 +129,13 @@ footer {
 #footer-details {
     padding: 20px;
 }
+
+
+
+/*------- {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}  
+
+*/

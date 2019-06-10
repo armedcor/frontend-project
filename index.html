@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- FontAwesome Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Quattrocento&display=swap" rel="stylesheet">
     <!-- Local Style Sheet -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Cormac Lawlor | Baritone</title>
@@ -17,26 +18,39 @@
 
 <body>
     <!-- Main landing image -->
-
-
-    <header class="jumbotron" id="landing-image">
-        <nav class="navbar navbar-nav navbar-fixed-top">
-            <div class="container">
-
-            </div>
+    <div class="container-fluid nav-container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2"><a class="page-scroll" href="#about-me">BIO</a></li>
+                <li class="nav-item mr-2"><a class="page-scroll" href="#media">MEDIA</a></li>
+                <li class="nav-item mr-2"><a class="page-scroll" href="#schedule">SCHEDULE</a></li>
+                <li class="nav-item mr-2"><a class="page-scroll" href="#gallery">GALLERY</a></li>
+                <li class="nav-item mr-2"><a class="page-scroll" href="#contact">CONTACT</a></li>
+            </ul>
         </nav>
-        <div class="container top">
-            <h1 class="name">Cormac Lawlor</h1>
-            <p class="title lead">Operatic Baritone</p>
+    </div>
+
+
+    <div class="container-fluid callout-container">
+        <div class="row">
+            <div class="col-12">
+                <section class="jumbotron text-center">
+                    <h1 class="display-4 jumbotron-header">Cormac Lawlor</h1>
+                    <hr>
+                    <p class="lead jumbotron-text">Operatic Baritone</p>
+                </section>
+            </div>
         </div>
-    </header>
+    </div>
+
+
 
     <!-- About me text including media quotes -->
 
     <div class="row">
-        <section class="about-me container">
+        <section class="container" id="about-me">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">About:</h2>
                 </div>
             </div>
@@ -88,15 +102,31 @@
 
     <section class="container" id="media">
         <div class="row">
-            <h2 class="text-uppercase">Media</h2>
+            <div class="col-12 my-5">
+                <h2 class="text-uppercase">Media</h2>
+            </div>
         </div>
+        <!--<div class="row">-->
+        <!--    <div class="col-12">-->
+        <!--        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/420888168&color=%23ff5500&auto_play=-->
+        <!--            false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>-->
+        <!--    </div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+        <!--    <div class="col-12 my-5">-->
+        <!--        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/420889467&color=%23ff5500&auto_play-->
+        <!--            =false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>-->
+        <!--    </div>-->
+        <!--</div>-->
     </section>
 
     <hr>
 
     <section class="container" id="schedule">
         <div class="row">
-            <h2 class="text-uppercase">Schedule</h2>
+            <div class="col-12">
+                <h2 class="text-uppercase">Schedule</h2>
+            </div>
         </div>
     </section>
 
@@ -104,7 +134,9 @@
 
     <section class="container" id="gallery">
         <div class="row">
-            <h2 class="text-uppercase">Gallery</h2>
+            <div class="col-12">
+                <h2 class="text-uppercase">Gallery</h2>
+            </div>
         </div>
     </section>
 
@@ -112,9 +144,12 @@
 
     <section class="container" id="contact">
         <div class="row">
-            <h2 class="text-upppercase">Contact</h2>
+            <div class="col-12">
+                <h2 class="text-uppercase">Contact</h2>
+            </div>
         </div>
     </section>
+
 
 
 </body>
